@@ -4,6 +4,6 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
+      image: komodohealth/codestudio-developer-image:2023.02
       memoryLimit: 512Mi
       mountSources: true
