@@ -13,4 +13,5 @@ spec:
     directory:
       recurse: true
   syncPolicy:
-    automated: {}
+    automated:
+      prune: true
