@@ -1,0 +1,19 @@
+apiVersion: komodohealth.com/v1
+kind: Report
+metadata:
+  name: komodo-report-example-scope
+  namespace: archi-test-stageonly
+  annotations:
+    komodohealth.com/account-id: 0af91a49-cad0-4729-bfa1-80c5bc8be7f6
+    komodohealth.com/secret-id: asaintsever  # Operator will lookup for this k8s secret
+  labels:
+    app.kubernetes.io/managed-by: dragon-platform
+spec:
+  name: report-example-scope
+  description: My SCOPE test report
+  # SCOPE (Single Cohort Observable Statistic Package)
+  template_configuration:
+    template:
+      id: f3ffa4ac-038a-426a-b0c2-07fb6eaf60e4
+    configuration:
+      ucc_cohort_id: 170218
