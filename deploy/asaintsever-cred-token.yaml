@@ -3,7 +3,7 @@ kind: Secret
 type: Opaque
 metadata:
   name: asaintsever-test
-  namespace: kw-2023-demo-stageonly
+  namespace: archi-test-stageonly
   annotations:
     komodohealth.com/account-id: 0af91a49-cad0-4729-bfa1-80c5bc8be7f6
   labels:
