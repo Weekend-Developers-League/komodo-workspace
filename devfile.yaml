@@ -6,6 +6,6 @@ components:
     attributes:
       container-overrides: {"imagePullPolicy": "IfNotPresent"}
     container:
-      image: komodohealth/codestudio-developer-image:2023.02
+      image: komodohealth/codestudio-developer-image:next
       memoryLimit: 512Mi
       mountSources: true
